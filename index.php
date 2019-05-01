@@ -4,8 +4,8 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="author" content="Fragrance">
-	<meta name="keywords" content="responsive html template, portfolio, creative, flat, green, light, modern, gallery">
-	<meta name="description" content="Responsive HTML Template - Home Page">
+	<!-- <meta name="keywords" content="responsive html template, portfolio, creative, flat, green, light, modern, gallery"> -->
+	<meta name="description" content="Mustafa Hosny Official Website">
 	<title>Mustafa Hosny Official Website</title>
 
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
