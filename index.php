@@ -64,28 +64,8 @@
 		  background-color: #000;
 		}
 
-		.facebook {
-		  background: #3B5998;
-		  color: white;
-		}
-
-		.twitter {
-		  background: #55ACEE;
-		  color: white;
-		}
-
-		.google {
-		  background: #dd4b39;
-		  color: white;
-		}
-
-		.linkedin {
-		  background: #007bb5;
-		  color: white;
-		}
-
-		.youtube {
-		  background: #bb0000;
+		.icon {
+		  background: transparent;
 		  color: white;
 		}
 
@@ -104,11 +84,11 @@
 		<div id="wrapper">
 			<header id="main_header">
 				<div class="icon-bar">
-					<a href="https://www.facebook.com/MustafaHosny" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-					<a href="https://twitter.com/mustafahosny" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
-					<a href="https://www.instagram.com/mustafahosnyofficial/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> 
-					<a href="https://soundcloud.com/mustafahosny" class="soundcloud" target="_blank"><img src="images/media.ico" height="35" width="35"></a>
-					<a href="https://www.youtube.com/user/MustafaHosnyOfficial" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> 
+					<a href="https://www.facebook.com/MustafaHosny" class="icon" target="_blank"><img src="images/social_icons/facebook.png" alt="img" height="35" width="35"/></a> 
+					<a href="https://twitter.com/mustafahosny" class="icon" target="_blank"><img src="images/social_icons/twitter.png" alt="img" height="35" width="35" /></a> 
+					<a href="https://www.instagram.com/mustafahosnyofficial/" class="icon" target="_blank"><img src="images/social_icons/instgram.png" alt="img" height="35" width="35" /></a> 
+					<a href="https://soundcloud.com/mustafahosny" class="icon" target="_blank"><img src="images/social_icons/soundcloud.png" height="35" width="35"></a>
+					<a href="https://www.youtube.com/user/MustafaHosnyOfficial"class="icon" target="_blank"><img src="images/social_icons/youtube.png" alt="img" height="35" width="35"/></a> 
 				</div>
 				<!--MENU-->
 				<div id="menu" class="clearfix">
@@ -236,7 +216,7 @@
 						?>
 						<article class="entry post clearfix ">
 							<div class="post-content clearfix" id="newest_video">
-								<div class="video_box">
+								<div class="video_box" style="padding-left: 270px;">
 									<iframe src="https://www.youtube.com/embed/<?php echo $video; ?>" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 								</div> <!-- end .thumb -->
 								</div>
@@ -245,10 +225,10 @@
 				
 				<!--FOOTER-->
 				<div id="footer">
-					<div id="footer-widgets" class="clearfix">
-						<div class=" clearfix">
+					<div id="footer-widgets" class="">
+						<!-- <div class=" clearfix"> -->
 							<section class="social" style="margin-left: 350px">
-								<h4>Follow us</h4>
+								<!-- <h4>Follow us</h4> -->
 								<div id="social-icons">
 									<a href="https://www.facebook.com/MustafaHosny" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 									<a href="https://twitter.com/mustafahosny" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
@@ -257,7 +237,7 @@
 									<a href="https://www.youtube.com/user/MustafaHosnyOfficial" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
 								</div> <!-- end #social-icons -->
 							</section>
-						</div>
+						<!-- </div> -->
 					</div>
 					<p id="copyright"> 2019 &#169; جميع الحقوق محفوظة  .Three60 Dgree تصمصم وتطوير شركة </span></p>
 				</div> <!-- end #footer -->
