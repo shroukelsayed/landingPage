@@ -1073,7 +1073,7 @@ h4.widget_title:after {
 }
 .team_person{
 	width: 160px;
-	margin-right: 100px;
+	margin-right: 40px;
 	float: left;
 	text-align: center;
 }
@@ -1082,7 +1082,7 @@ h4.widget_title:after {
 }
 .team_person img{
 	max-width: 100%;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 }
 .team_name{
 	font-size: 23px;

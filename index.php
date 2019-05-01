@@ -10,7 +10,7 @@
 
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/headerWithSlider.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<!-- <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" /> -->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen" />
     <link href="css/least.min.css" rel="stylesheet">
     <link href="css/jquery.easy-pie-chart.css" rel="stylesheet">   
@@ -101,26 +101,24 @@
 </head>
 <body class="home">
 	<div id="container">
-		
 		<div id="wrapper">
 			<header id="main_header">
 				<div class="icon-bar">
 					<a href="https://www.facebook.com/MustafaHosny" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
 					<a href="https://twitter.com/mustafahosny" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
 					<a href="https://www.instagram.com/mustafahosnyofficial/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> 
-					<a href="https://soundcloud.com/mustafahosny" class="soundcloud" target="_blank"><i class="fa fa-soundcloud"></i></a>
+					<a href="https://soundcloud.com/mustafahosny" class="soundcloud" target="_blank"><img src="images/media.ico" height="35" width="35"></a>
 					<a href="https://www.youtube.com/user/MustafaHosnyOfficial" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> 
 				</div>
 				<!--MENU-->
 				<div id="menu" class="clearfix">
 					<a href="#" id="mobile_nav" class="closed">Navigation Menu</a>
 					<nav id="main-menu">
-						<a href="#main_header"><img src="images/logo2.png" id="logo" alt="logo" /></a> <!-- Small logo in menu -->
 						<ul id="menu-main_menu" class="nav">
 							<li><a href="#main_header">يعرض حاليا</a></li>
-							<li><a href="#services">أجدد حلقات برنامج كنوز</a></li>
-							<li><a href="#about">حسابات التواصل اﻻجتماعى</a></li>
-							<li><a href="#about">عن مصطفى حسنى </a></li>
+							<li><a href="#newest_video">أجدد حلقات برنامج كنوز</a></li>
+							<li><a href="#services">حسابات التواصل اﻻجتماعى</a></li>
+							<li><a href="#main_header">عن مصطفى حسنى </a></li>
 						</ul>	
 					</nav>
 				</div> <!-- end #menu -->
@@ -185,75 +183,87 @@
 				<!--SLIDER-->
 			
 			</header> <!-- end #main-header -->
-		<div id="content">
-		
-		<!--SERVICES SECTION-->
-		<div id="services" class="clearfix">
-			<div class="sizers clearfix">
-				<div class="servise_items clearfix">
-					<h3 class="section_name">حسابات التواصل اﻻجتماعى </h3>
-					<section class="">
-						<div class="row">
-							<!-- <div class="col-md-2"> -->
-								<a href="https://www.facebook.com/MustafaHosny" target="_blank"><img class="icon aligncenter" src="images/social_icons/facebook.png" alt="page icon" height="75" width="75"></a>
-							<!-- </div> -->
-							<a href="https://twitter.com/mustafahosny" target="_blank"><img class="icon aligncenter" src="images/social_icons/twitter.png" alt="page icon" height="75" width="75"></a>
-							<a href="https://www.instagram.com/mustafahosnyofficial/" target="_blank"><img class="icon aligncenter" src="images/social_icons/instgram.png" alt="page icon" height="75" width="75"></a>
-							<a href="https://www.youtube.com/user/MustafaHosnyOfficial" target="_blank"><img class="icon aligncenter" src="images/social_icons/youtube.png" alt="page icon" height="75" width="75"></a>
-							<a href="https://soundcloud.com/mustafahosny" target="_blank"><img class="icon aligncenter" src="images/social_icons/soundcloud.png" alt="page icon" height="75" width="75"></a>
-						</div> <!-- end #social-icons -->
-					</section>
-				</div> 
-			</div> 
-		</div> 
-		<!-- end #services -->
-		<!--SERVICES SECTION-->
-		
-		<!-- <div id="video" class="post-content clearfix">
-			<div class="video_box">
-				<iframe src="http://player.vimeo.com/video/55105820?badge=0&amp;color=f5f7f7" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			</div> 
-		</div> -->
-		<?php
-
-
-			$API_key = 'AIzaSyCSqCVTGu-LAQ5au48FakISW3c-GJ-tjrk';
-			$channelID  = 'UCwttCEi9Fq1DgTd5Anil6rQ';
-			$playlistId = 'PLiJggHtOlnN2VRTPbKjXycqLwvp0cPyU7';
-			$maxResults = 50;
-			$video_list = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId='.$playlistId.'&maxResults='.$maxResults.'&key='.$API_key.''));
-			$video = end($video_list->items)->snippet->resourceId->videoId;
-				?>
-				<!-- <article class="entry post clearfix "> -->
-					<div class=" clearfix">
-						<div class="video_box">
-							<iframe src="https://www.youtube.com/embed/<?php echo $video; ?>" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-						</div> <!-- end .thumb -->
+			<div id="content">
+				
+				<!--SERVICES SECTION-->
+				<div id="services">
+					<div class="sizers clearfix">
+						<div class="section_description">
+							<h3 class="section_name">حسابات التواصل اﻻجتماعى</h3>
 						</div>
-				<!-- </article> end article -->
-		
-		
-		<!--FOOTER-->
-		<div id="footer">
-			<div id="footer-widgets" class="clearfix">
-				<div class=" clearfix">
-					<section class="social" style="margin-left: 350px">
-						<h4>Follow us</h4>
-						<div id="social-icons">
-							<a href="https://www.facebook.com/MustafaHosny" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-							<a href="https://twitter.com/mustafahosny" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-							<a href="https://www.instagram.com/mustafahosnyofficial/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-							<a href="https://soundcloud.com/mustafahosny" target="_blank"><i class="fa fa-soundcloud"></i></a>
-							<a href="https://www.youtube.com/user/MustafaHosnyOfficial" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-						</div> <!-- end #social-icons -->
-					</section>
+						<div class="team_person">
+							<a href="https://soundcloud.com/mustafahosny" target="_blank">
+								<img src="images/social_icons/soundcloud.png" alt="img" />
+							</a>
+							<h6 class="team_name">حســاب ساوندكلود</h6>
+						</div>
+						<div class="team_person">
+							<a href="https://www.youtube.com/user/MustafaHosnyOfficial" target="_blank">
+								<img src="images/social_icons/youtube.png" alt="img" />
+							</a>
+							<h6 class="team_name">قنــــــاة اليوتيوب</h6>
+						</div>
+						<div class="team_person">
+							<a href="https://www.instagram.com/mustafahosnyofficial/" target="_blank">
+								<img src="images/social_icons/instgram.png" alt="img" />
+							</a>
+							<h6 class="team_name">حســاب انستجرام</h6>
+						</div>
+						<div class="team_person">
+							<a href="https://twitter.com/mustafahosny" target="_blank">
+								<img src="images/social_icons/twitter.png" alt="img" />
+							</a>
+							<h6 class="team_name">حســــاب تويتــــر</h6>
+						</div>
+						<div class="team_person">
+							<a href="https://www.facebook.com/MustafaHosny" target="_blank">
+								<img src="images/social_icons/facebook.png" alt="img" />
+							</a>
+							<h6 class="team_name">صفحــة الفيسبوك</h6>
+						</div>
+					</div> <!-- end of .sizers -->
 				</div>
-			</div>
-			<p id="copyright"> 2019 &#169; جميع الحقوق محفوظة  .Three60 Dgree تصمصم وتطوير شركة </span></p>
-		</div> <!-- end #footer -->
-		<!--FOOTER-->
-	
-		</div> <!-- end #content -->
+				
+				<!--SERVICES SECTION-->
+				
+				<?php
+					$API_key = 'AIzaSyCSqCVTGu-LAQ5au48FakISW3c-GJ-tjrk';
+					$channelID  = 'UCwttCEi9Fq1DgTd5Anil6rQ';
+					$playlistId = 'PLiJggHtOlnN2VRTPbKjXycqLwvp0cPyU7';
+					$maxResults = 50;
+					$video_list = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId='.$playlistId.'&maxResults='.$maxResults.'&key='.$API_key.''));
+					$video = end($video_list->items)->snippet->resourceId->videoId;
+						?>
+						<article class="entry post clearfix ">
+							<div class="post-content clearfix" id="newest_video">
+								<div class="video_box">
+									<iframe src="https://www.youtube.com/embed/<?php echo $video; ?>" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+								</div> <!-- end .thumb -->
+								</div>
+						</article> <!-- end article -->
+				
+				
+				<!--FOOTER-->
+				<div id="footer">
+					<div id="footer-widgets" class="clearfix">
+						<div class=" clearfix">
+							<section class="social" style="margin-left: 350px">
+								<h4>Follow us</h4>
+								<div id="social-icons">
+									<a href="https://www.facebook.com/MustafaHosny" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+									<a href="https://twitter.com/mustafahosny" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+									<a href="https://www.instagram.com/mustafahosnyofficial/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+									<a href="https://soundcloud.com/mustafahosny" target="_blank"><img src="images/media.ico" height="75" width="75"></a>
+									<a href="https://www.youtube.com/user/MustafaHosnyOfficial" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+								</div> <!-- end #social-icons -->
+							</section>
+						</div>
+					</div>
+					<p id="copyright"> 2019 &#169; جميع الحقوق محفوظة  .Three60 Dgree تصمصم وتطوير شركة </span></p>
+				</div> <!-- end #footer -->
+				<!--FOOTER-->
+			
+			</div> <!-- end #content -->
 	</div> <!-- end #wrapper -->
 </div> <!-- end #container -->
 
