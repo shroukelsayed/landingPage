@@ -112,7 +112,7 @@
 						<li class="slide fr_slide_image">
 							<div class="slide_wrap">
 								<div class="featured_box">
-									<a href="#">							
+									<a href="https://www.facebook.com/MustafaHosny">							
 										<img src="images/slider/1.png" alt='img' />
 									</a>
 									<div class="fr_image_description">
@@ -216,7 +216,7 @@
 						?>
 						<article class="entry post clearfix ">
 							<div class="post-content clearfix" id="newest_video">
-								<div class="video_box" style="padding-left: 270px;">
+								<div class="video_box ">
 									<iframe src="https://www.youtube.com/embed/<?php echo $video; ?>" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 								</div> <!-- end .thumb -->
 								</div>
