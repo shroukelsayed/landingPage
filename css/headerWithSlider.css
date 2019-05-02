@@ -72,11 +72,11 @@ video{
 	margin-top: -12px;
 }
 #left-arrow {
-	right: 150px;
+	right: 100px;
 	background: url(images/prev_arrow.png) no-repeat;
 }
 #right-arrow {
-	right: 150px;
+	right: 100px;
 	top: 63%;
 	background: url(images/next_arrow.png) no-repeat;
 }

@@ -42,13 +42,31 @@
 	</script>
 	<style>
 		/*body {margin:0;height:2000px;}*/
+		#left-arrow, #right-arrow{
+			background-color: rgba(0,0,0,.2); !important;
+padding: 3px 10px;
+background-position: center !important;
+z-index: 5;
+		}
 
+.linkslider{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1
+}
 		.icon-bar {
 		  position: fixed;
 		  top: 50%;
 		  -webkit-transform: translateY(-50%);
 		  -ms-transform: translateY(-50%);
 		  transform: translateY(-50%);
+		  z-index: 10;
+			background-color: rgba(255,255,255,.3); !important;
+			border-radius: 0 20px 20px 0;
+			box-shadow: 0 0 2px rgba(0,0,0,.4); !important;
 		}
 
 		.icon-bar a {
@@ -109,12 +127,14 @@
 					<ul class="slides">
 					
 					<!--IMAGE SLIDE-->
+					
 						<li class="slide fr_slide_image">
+							<a href="https://www.facebook.com/MustafaHosny" class="linkslider" target="_blank">							
+						
 							<div class="slide_wrap">
 								<div class="featured_box">
-									<a href="https://www.facebook.com/MustafaHosny">							
 										<img src="images/slider/1.png" alt='img' />
-									</a>
+									
 									<div class="fr_image_description">
 										<!-- <div class="fr_inner_description"> -->
 											<!-- <h2 class="title"><a href="#">أهلا بكم في</a></h2>
@@ -125,8 +145,9 @@
 									</div>
 								</div> <!-- end .featured_box -->
 							</div> <!-- end .slide_wrap -->
+						</a>
+							
 						</li>
-						
 						<li class="slide fr_slide_image">
 							<div class="slide_wrap">
 								<div class="featured_box">
@@ -222,6 +243,11 @@
 								</div>
 						</article> <!-- end article -->
 				
+				<div class="fixed_block quote" style="height: 760px;">
+
+			<!-- <blockquote>Design is not just what it looks like and feels like. Design is how it works.</blockquote> -->
+			<!-- <p class="author">Steve Jobs</p> -->
+		</div>
 				
 				<!--FOOTER-->
 				<div id="footer">
