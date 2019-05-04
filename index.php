@@ -242,12 +242,11 @@ z-index: 5;
 								</div> <!-- end .thumb -->
 								</div>
 						</article> <!-- end article -->
-				
-				<div class="fixed_block quote" style="height: 760px;">
+		
+				<div class="fixed_block quote" >
 
-			<!-- <blockquote>Design is not just what it looks like and feels like. Design is how it works.</blockquote> -->
-			<!-- <p class="author">Steve Jobs</p> -->
-		</div>
+				</div>
+						
 				
 				<!--FOOTER-->
 				<div id="footer">
