@@ -6,7 +6,7 @@
 	<meta name="author" content="Fragrance">
 	<!-- <meta name="keywords" content="responsive html template, portfolio, creative, flat, green, light, modern, gallery"> -->
 	<meta name="description" content="Mustafa Hosny Official Website">
-	<title>Mustafa Hosny Official Website</title>
+	<title>الموقع الرسمي للداعية مصطفى حسني</title>
 
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/headerWithSlider.css" type="text/css" media="screen" />

@@ -801,8 +801,9 @@ p.meta a:hover {
 	padding-top: 20px;
 }
 .video_box iframe{
-	width: 100%;
+	width: 80%;
 	height: 545px;
+	padding-left: 200px;
 }
 .entry a.readmore, a.readmore{
 	text-align: center;
@@ -1537,12 +1538,77 @@ textarea.input {
 	color: #777 !important;
 	text-shadow: none;
 }
-
-@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+@media only screen  and ( max-width: 1024px ) {
 	
 	.home #main_header { height: 600px !important; }
-	.sizers { width: 780px; }
+	/*.sizers { width: 780px; }*/
+	.video_box iframe{
+		width: 80%;
+		height: 545px;
+		padding-left: 100px;
+	}
+	#menu #main-menu {
+		width: 100%;
+		right: 0;
+	}
+	#menu .nav a{ font-size: 12px; }
 	
+	#services{ height: 900px; }
+	.servise_items{ margin-top: 20px; }
+	.service{ width: 220px; }
+	.last{ margin-right: 40px !important; }
+	.service h3, .service span{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.service p{ font-size: 14px; }
+	
+	.bio{ width: 40%; }
+	
+	.team_person{
+		width: 140px;
+		margin-right: 70px;
+	}
+	.fixed_block{ height: 450px; background-size: contain; }
+
+	/*.fixed_block .four.columns{ width: 175px;}*/
+	.fucts_count{ font-size: 60px; }
+	.fa-4x{ font-size: 3em !important; }
+	
+	#fr_showcase_slider { padding-left: 40px; }
+	.fr_slide_ipad .app_screen{
+		width: 50%;
+		background-size: contain;
+		margin-right: 40px;
+	}
+	
+	#recent-work{ padding: 50px 0 0; }
+	#recent-work #fullPreview{ padding: 50px 0 30px 20px; }
+	
+	#fr_contact_form .one_half { width: 45%; }
+	#fr_contact_form textarea.input{ width: 350px; }
+	#contact_reset { margin-right: 40px; }
+	
+	#left_area { width: 510px; }
+	#sidebar { width: 200px; }
+	
+	#fr_to_top{ right: 10px; }
+	
+	.masonry .sizers { width: 960px; }
+	.masonry .entry{ width: 250px; }
+	.masonry .entry h2, .masonry .entry h1{ font-size: 25px; }
+	
+	#main_header, #about, #fr_contact{ background-attachment: scroll; }
+}
+@media only screen  and ( max-width: 980px ) {
+	
+	.home #main_header { height: 600px !important; }
+	/*.sizers { width: 780px; }*/
+	.video_box iframe{
+		width: 80%;
+		height: 545px;
+		padding-left: 50px;
+	}
 	#menu #main-menu {
 		width: 100%;
 		right: 0;
@@ -1566,6 +1632,7 @@ textarea.input {
 		margin-right: 70px;
 	}
 	.fixed_block{ height: 760px; }
+
 	.fixed_block .four.columns{ width: 175px;}
 	.fucts_count{ font-size: 60px; }
 	.fa-4x{ font-size: 3em !important; }
@@ -1594,8 +1661,8 @@ textarea.input {
 	.masonry .entry h2, .masonry .entry h1{ font-size: 25px; }
 	
 	#main_header, #about, #fr_contact{ background-attachment: scroll; }
-	.fixed_block{ height: 760px; }
 }
+
 @media only screen and ( max-width: 800px ) {
 	
 	#container{ overflow: hidden; }
@@ -1677,7 +1744,16 @@ textarea.input {
 	.team_person{ width: 120px; }
 	
 	.fixed_block .four.columns { width: 155px;}
-	.fixed_block{ height: 760px; }
+	.fixed_block{ 
+		background-size: contain;
+		height: 300px; }
+
+	.video_box iframe{
+		width: 80%;
+		height: 545px;
+		padding-left: 80px;
+	}
+
 	#about{ padding:70px 50px 120px; }
 	
 	#recent-work {
@@ -1698,7 +1774,12 @@ textarea.input {
 }
 @media only screen and ( max-width: 637px ) {
 	.sizers { width: 570px; }
-	
+	.video_box iframe{
+		width: 80%;
+		height: 545px;
+		padding-left: 45px;
+	}
+
 	.home #main_header { height: 600px !important; }
 	
 	.servise_items{
