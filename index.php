@@ -41,6 +41,11 @@
 		document.documentElement.className = 'js';
 	</script>
 	<style>
+		#content{
+			background-image: url("css/images/BG_2.png");
+			background-repeat: repeat;
+		}
+
 		/*body {margin:0;height:2000px;}*/
 		#left-arrow, #right-arrow{
 			background-color: rgba(0,0,0,.2); !important;
@@ -184,13 +189,13 @@ z-index: 5;
 				<!--SLIDER-->
 			
 			</header> <!-- end #main-header -->
-			<div id="content">
+			<div id="content" >
 				
 				<!--SERVICES SECTION-->
 				<div id="services">
 					<div class="sizers clearfix">
 						<div class="section_description">
-							<h3 class="section_name">حسابات التواصل اﻻجتماعى</h3>
+							<h3 class="section_name" id="new_font">حسابات التواصل اﻻجتماعى</h3>
 						</div>
 						<div class="team_person">
 							<a href="https://soundcloud.com/mustafahosny" target="_blank">

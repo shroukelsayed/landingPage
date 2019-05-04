@@ -1540,7 +1540,7 @@ textarea.input {
 }
 @media only screen  and ( max-width: 1024px ) {
 	
-	.home #main_header { height: 600px !important; }
+	/*.home #main_header { height: 600px !important; }*/
 	/*.sizers { width: 780px; }*/
 	.video_box iframe{
 		width: 80%;
@@ -1553,7 +1553,7 @@ textarea.input {
 	}
 	#menu .nav a{ font-size: 12px; }
 	
-	#services{ height: 900px; }
+	#services{ height: auto; }
 	.servise_items{ margin-top: 20px; }
 	.service{ width: 220px; }
 	.last{ margin-right: 40px !important; }
@@ -1567,7 +1567,12 @@ textarea.input {
 	
 	.team_person{
 		width: 140px;
-		margin-right: 70px;
+		margin-right: 60px;
+	}
+
+	#new_font{
+		font-size: 24px;
+		text-align :center;
 	}
 	.fixed_block{ height: 450px; background-size: contain; }
 
@@ -1696,6 +1701,7 @@ textarea.input {
 }
 @media only screen and ( max-width: 768px ) {
 	
+
 	#main_header{
 		background-color: rgba(255, 255, 255, 0.9)!important;
 		box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -1741,7 +1747,10 @@ textarea.input {
 		margin-right: 60px;
 	}
 	
-	.team_person{ width: 120px; }
+	.team_person{     
+		width: 110px;
+    	margin-right: 20px 
+    }
 	
 	.fixed_block .four.columns { width: 155px;}
 	.fixed_block{ 
@@ -1778,6 +1787,17 @@ textarea.input {
 		width: 80%;
 		height: 545px;
 		padding-left: 45px;
+	}
+	.team_person {
+		width: 60px;
+	    margin-right: 10px;
+	    padding-left: 10px;
+    }
+    .team_name{
+    	font-size: 12px;
+	}
+	#new_font{
+		font-size: 24px;
 	}
 
 	.home #main_header { height: 600px !important; }
@@ -1905,7 +1925,9 @@ textarea.input {
 	}
 	#team .section_description p, #fr_contact_form .section_description p{ padding: 0 4%; }
 	
-	.fixed_block{ height: 850px; }
+	.fixed_block{ height: 850px; 
+		background-size: cover;
+	}
 	.fixed_block .four.columns{
 		width: 260px;
 		margin-bottom: 30px;
@@ -1928,7 +1950,17 @@ textarea.input {
 	.masonry .entry{ width: 380px; }
 	
 	#fr_to_top{ display: none; }
-	
+	.team_person {
+		width: 50px;
+	    margin-right: 10px;
+	    padding-left: 10px;
+    }
+    .team_name{
+    	font-size: 18px;
+	}
+	#new_font{
+		font-size: 24px;
+	}
 }
 
 @media only screen and ( max-width: 360px ) {
@@ -1944,7 +1976,9 @@ textarea.input {
 		padding: 0 !important;
 		height: auto;
 	}
-	
+	.fixed_block{
+		background-size: cover;
+	}
 	.fixed_block .four.columns{ margin-left: 15px; }
 	
 	#about { padding: 70px 0 40px 8%; }
@@ -1985,6 +2019,13 @@ textarea.input {
 	.masonry .entry h2, .masonry .entry h1{ font-size: 25px; }
 	.fr_post_type{ display: none; }
 	
+	.team_person {
+		width: 45px;
+    	margin-right: 5px;
+    }
+    .team_name{
+    	font-size: 12px;
+	}
 }
 @media only screen and ( max-width: 320px ) {
 	
