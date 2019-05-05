@@ -20,6 +20,10 @@
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
 	 <style>
 		  html, body{ margin: 0; padding: 0; height: 100%; }
+		  #content{
+			background-image: url("css/images/BG_2.png");
+			background-repeat: repeat;
+		}
 	</style>
 	
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
