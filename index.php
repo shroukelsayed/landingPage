@@ -78,15 +78,10 @@
 						
 							<div class="slide_wrap">
 								<div class="featured_box">
-										<img src="images/slider/1.png" alt='img' />
+										<img src="images/slider/1.png" alt='img'/>
 									
 									<div class="fr_image_description">
-										<!-- <div class="fr_inner_description"> -->
-											<!-- <h2 class="title"><a href="#">أهلا بكم في</a></h2>
-											<h2 class="title"><a href="#">الموقع الرسمي </a></h2>
-											<h2 class="title"><a href="#">للداعية مصطفى حسني </a></h2> -->
-											<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, erat in malesuada aliquam, est erat faucibus purus, eget viverra nulla sem vitae neque.</p> -->
-										<!-- </div> end .fr_inner_description -->
+										
 									</div>
 								</div> <!-- end .featured_box -->
 							</div> <!-- end .slide_wrap -->
@@ -187,10 +182,11 @@
 								</div> <!-- end .thumb -->
 								</div>
 						</article> <!-- end article -->
-		
-				<div class="fixed_block quote" >
-
-				</div>
+				
+				<a href="https://www.youtube.com/user/MustafaHosnyOfficial/playlists?view=50&sort=dd&shelf_id=15"  target="_blank">
+					<div class="fixed_block quote" >
+					</div>
+				</a>
 						
 				
 				<!--FOOTER-->
