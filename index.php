@@ -209,7 +209,7 @@
 							</section>
 						<!-- </div> -->
 					</div>
-					<p id="copyright" style="font-family: brandon;"> 2019 &#169; جميع الحقوق محفوظة  .Three60 Dgree تصمصم وتطوير شركة </span></p>
+					<p id="copyright" style="font-family: brandon;"> 2019 &#169; جميع الحقوق محفوظة  .Three60 Degree تصميم وتطوير شركة </span></p>
 				</div> <!-- end #footer -->
 				<!--FOOTER-->
 			
