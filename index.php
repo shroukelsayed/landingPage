@@ -6,7 +6,7 @@
 	<meta name="author" content="Fragrance">
 	<!-- <meta name="keywords" content="responsive html template, portfolio, creative, flat, green, light, modern, gallery"> -->
 	<meta name="description" content="Mustafa Hosny Official Website">
-	<title>الموقع الرسمي للداعية مصطفى حسني</title>
+	<title style="font-family: brandon;">الموقع الرسمي للداعية مصطفى حسني</title>
 
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/headerWithSlider.css" type="text/css" media="screen" />
@@ -40,78 +40,18 @@
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
 	</script>
-	<style>
-		#content{
-			background-image: url("css/images/BG_2.png");
-			background-repeat: repeat;
-		}
 
-		/*body {margin:0;height:2000px;}*/
-		#left-arrow, #right-arrow{
-			background-color: rgba(0,0,0,.2); !important;
-padding: 3px 10px;
-background-position: center !important;
-z-index: 5;
-		}
-
-.linkslider{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1
-}
-		.icon-bar {
-		  position: fixed;
-		  top: 50%;
-		  -webkit-transform: translateY(-50%);
-		  -ms-transform: translateY(-50%);
-		  transform: translateY(-50%);
-		  z-index: 10;
-			background-color: rgba(255,255,255,.3); !important;
-			border-radius: 0 20px 20px 0;
-			box-shadow: 0 0 2px rgba(0,0,0,.4); !important;
-		}
-
-		.icon-bar a {
-		  display: block;
-		  text-align: center;
-		  padding: 16px;
-		  transition: all 0.3s ease;
-		  color: white;
-		  font-size: 20px;
-		}
-
-		.icon-bar a:hover {
-		  background-color: #000;
-		}
-
-		.icon {
-		  background: transparent;
-		  color: white;
-		}
-
-		.content {
-		  /*margin-left: 75px;*/
-		  font-size: 30px;
-		}
-
-		.fa{
-			color: #000;
-		}
-	</style>
 </head>
 <body class="home">
 	<div id="container">
 		<div id="wrapper">
 			<header id="main_header">
 				<div class="icon-bar">
-					<a href="https://www.facebook.com/MustafaHosny" class="icon" target="_blank"><img src="images/social_icons/facebook.png" alt="img" height="35" width="35"/></a> 
-					<a href="https://twitter.com/mustafahosny" class="icon" target="_blank"><img src="images/social_icons/twitter.png" alt="img" height="35" width="35" /></a> 
-					<a href="https://www.instagram.com/mustafahosnyofficial/" class="icon" target="_blank"><img src="images/social_icons/instgram.png" alt="img" height="35" width="35" /></a> 
-					<a href="https://soundcloud.com/mustafahosny" class="icon" target="_blank"><img src="images/social_icons/soundcloud.png" height="35" width="35"></a>
-					<a href="https://www.youtube.com/user/MustafaHosnyOfficial"class="icon" target="_blank"><img src="images/social_icons/youtube.png" alt="img" height="35" width="35"/></a> 
+					<a href="https://www.facebook.com/MustafaHosny" class="icon" target="_blank"><img src="images/social_icons/facebook.png" alt="img" /></a> 
+					<a href="https://twitter.com/mustafahosny" class="icon" target="_blank"><img src="images/social_icons/twitter.png" alt="img"  /></a> 
+					<a href="https://www.instagram.com/mustafahosnyofficial/" class="icon" target="_blank"><img src="images/social_icons/instgram.png" alt="img"  /></a> 
+					<a href="https://soundcloud.com/mustafahosny" class="icon" target="_blank"><img src="images/social_icons/soundcloud.png" ></a>
+					<a href="https://www.youtube.com/user/MustafaHosnyOfficial"class="icon" target="_blank"><img src="images/social_icons/youtube.png" alt="img" /></a> 
 				</div>
 				<!--MENU-->
 				<div id="menu" class="clearfix">
@@ -257,7 +197,7 @@ z-index: 5;
 				<div id="footer">
 					<div id="footer-widgets" class="">
 						<!-- <div class=" clearfix"> -->
-							<section class="social" style="margin-left: 350px">
+							<section class="social" >
 								<!-- <h4>Follow us</h4> -->
 								<div id="social-icons">
 									<a href="https://www.facebook.com/MustafaHosny" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
@@ -269,7 +209,7 @@ z-index: 5;
 							</section>
 						<!-- </div> -->
 					</div>
-					<p id="copyright"> 2019 &#169; جميع الحقوق محفوظة  .Three60 Dgree تصمصم وتطوير شركة </span></p>
+					<p id="copyright" style="font-family: brandon;"> 2019 &#169; جميع الحقوق محفوظة  .Three60 Dgree تصمصم وتطوير شركة </span></p>
 				</div> <!-- end #footer -->
 				<!--FOOTER-->
 			

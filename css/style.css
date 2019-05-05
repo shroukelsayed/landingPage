@@ -34,11 +34,13 @@ article, aside, footer, header, hgroup, nav, section { display: block; }
 
 @font-face {
     font-family: 'brandon';
-    src: url('fonts/brandon/brandon_med-webfont.eot');
-    src: url('fonts/brandon/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+    /*src: url('fonts/brandon/brandon_med-webfont.eot');*/
+    /*src: url('fonts/brandon/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/brandon/brandon_med-webfont.woff') format('woff'),
          url('fonts/brandon/brandon_med-webfont.ttf') format('truetype'),
-         url('fonts/brandon/brandon_med-webfont.svg#brandon_grotesquemedium') format('svg');
+         url('fonts/brandon/brandon_med-webfont.svg#brandon_grotesquemedium') format('svg');*/
+    src: url('fonts/brandon/ArbFONTS-URW-DIN-Arabic-Cond-Demi.ttf') format('truetype'),
+    	url('fonts/brandon/ArbFONTS-URW-DIN-Arabic-Cond-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -1334,7 +1336,7 @@ ol.flex-control-nav a.active, .featured_box ol.flex-control-nav li a.active{
 }
 #footer-widgets{
 	background-color: #eee;
-	padding: 40px;
+	padding: 25px;
 }
 .footer-widget {
 	float: left;
@@ -1538,6 +1540,71 @@ textarea.input {
 	color: #777 !important;
 	text-shadow: none;
 }
+.social{
+	margin-left: 350px
+}
+#content{
+	background-image: url("css/images/BG_2.png");
+	background-repeat: repeat;
+}
+
+/*body {margin:0;height:2000px;}*/
+#left-arrow, #right-arrow{
+	background-color: rgba(0,0,0,.2); !important;
+	padding: 3px 10px;
+	background-position: center !important;
+	z-index: 5;
+}
+.linkslider{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 10;
+	background-color: rgba(255,255,255,.3); !important;
+	border-radius: 0 20px 20px 0;
+	box-shadow: 0 0 2px rgba(0,0,0,.4); !important;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a img{
+	width: 35px;
+	height: 35px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.icon {
+  background: transparent;
+  color: white;
+}
+
+.content {
+  /*margin-left: 75px;*/
+  font-size: 30px;
+}
+
+.fa{
+	color: #000;
+}
 @media only screen  and ( max-width: 1024px ) {
 	
 	/*.home #main_header { height: 600px !important; }*/
@@ -1604,6 +1671,13 @@ textarea.input {
 	.masonry .entry h2, .masonry .entry h1{ font-size: 25px; }
 	
 	#main_header, #about, #fr_contact{ background-attachment: scroll; }
+	.social{
+		margin-left: 250px
+	}
+	.icon-bar a img{
+		width: 25px;
+		height: 25px;
+	}
 }
 @media only screen  and ( max-width: 980px ) {
 	
@@ -1666,6 +1740,13 @@ textarea.input {
 	.masonry .entry h2, .masonry .entry h1{ font-size: 25px; }
 	
 	#main_header, #about, #fr_contact{ background-attachment: scroll; }
+	.social{
+		margin-left: 50px
+	}
+	.icon-bar a img{
+		width: 25px;
+		height: 25px;
+	}
 }
 
 @media only screen and ( max-width: 800px ) {
@@ -1698,6 +1779,13 @@ textarea.input {
 	
 	#main_header, #about, #fr_contact{ background-attachment: scroll; }
 	.fixed_block{ height: 760px; background-attachment: scroll; }
+	.social{
+		margin-left: 50px
+	}
+	.icon-bar a img{
+		width: 25px;
+		height: 25px;
+	}
 }
 @media only screen and ( max-width: 768px ) {
 	
@@ -1778,8 +1866,13 @@ textarea.input {
 	
 	#left_area { width: 440px; }
 	#sidebar { width: 190px; }
-	
-	
+	.social{
+		margin-left: 250px
+	}
+	.icon-bar a img{
+		width: 25px;
+		height: 25px;
+	}
 }
 @media only screen and ( max-width: 637px ) {
 	.sizers { width: 570px; }
@@ -1887,6 +1980,13 @@ textarea.input {
 		text-align: left;
 		padding: 20px 0 40px 20px; 
 	}
+	.social{
+		margin-left: 50px
+	}
+	.icon-bar a img{
+		width: 25px;
+		height: 25px;
+	}
 }
 
 @media only screen and ( max-width: 480px ) {
@@ -1961,6 +2061,16 @@ textarea.input {
 	#new_font{
 		font-size: 24px;
 	}
+	/*#social-icons{
+		width: 50px;
+	}*/
+	.social{
+		margin-left: 50px
+	}
+	.icon-bar a img{
+		width: 25px;
+		height: 25px;
+	}
 }
 
 @media only screen and ( max-width: 360px ) {
@@ -2025,6 +2135,13 @@ textarea.input {
     }
     .team_name{
     	font-size: 12px;
+	}
+	.social{
+		margin-left: 50px
+	}
+	.icon-bar a img{
+		width: 25px;
+		height: 25px;
 	}
 }
 @media only screen and ( max-width: 320px ) {
