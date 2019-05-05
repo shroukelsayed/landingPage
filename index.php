@@ -76,7 +76,24 @@
 					<ul class="slides">
 					
 					<!--IMAGE SLIDE-->
-					
+						<li class="slide fr_slide_image">
+							<div class="slide_wrap">
+								<div class="featured_box">
+									<a href="#">							
+										<img src="images/slider/2.png" alt='img' />
+									</a>
+								</div> 
+							</div> <!-- end .slide_wrap -->
+						</li>
+						<li class="slide fr_slide_image">
+							<div class="slide_wrap">
+								<div class="featured_box">
+									<a href="#">							
+										<img src="images/slider/4.png" alt='img' />
+									</a>
+								</div> <!-- end .featured_box -->
+							</div> <!-- end .slide_wrap -->
+						</li>						
 						<li class="slide fr_slide_image">
 							<a href="https://www.facebook.com/MustafaHosny" class="linkslider" target="_blank">							
 						
@@ -92,34 +109,6 @@
 						</a>
 							
 						</li>
-						<li class="slide fr_slide_image">
-							<div class="slide_wrap">
-								<div class="featured_box">
-									<a href="#">							
-										<img src="images/slider/2.png" alt='img' />
-									</a>
-								</div> 
-							</div> <!-- end .slide_wrap -->
-						</li>
-						<li class="slide fr_slide_image">
-							<div class="slide_wrap">
-								<div class="featured_box">
-									<a href="#">							
-										<img src="images/slider/3.png" alt='img' />
-									</a>
-								</div> 
-							</div> <!-- end .slide_wrap -->
-						</li>
-						<li class="slide fr_slide_image">
-							<div class="slide_wrap">
-								<div class="featured_box">
-									<a href="#">							
-										<img src="images/slider/4.png" alt='img' />
-									</a>
-								</div> <!-- end .featured_box -->
-							</div> <!-- end .slide_wrap -->
-						</li>						
-						
 					</ul>
 
 					<a id="left-arrow" class="flex-prev" href="#">Previous</a>

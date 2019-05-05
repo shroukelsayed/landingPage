@@ -82,46 +82,7 @@ video{
 }
 
 #header_featured ol.flex-control-nav{ bottom: 100px; }
-@media only screen and ( min-width: 1024px ) and ( min-width: 1080px )  {
-	
-	#main_header { height: 900px !important; }
-	/*#main_header .flexslider .slides > li{
-		height: 900px !important;
-	}
-	
-	#left-arrow, #right-arrow{
-		top: 80%;
-		right: 50px; 
-	}
-	#right-arrow{ top: 90%; }*/
-	#main_header .flexslider .slides > li{
-		/*height: 640px !important;*/
-	    height: 370px !important;
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    background-position: top center !important;
-	}
 
-	.home #main_header {
-	    height: 163px !important;
-	}
-
-	#header_featured {
-	    height: 370px;
-	}
-	#left-arrow, #right-arrow {
-	    height: 29px;
-	}
-	#left-arrow{ top: 10%; }
-	#right-arrow{ top: 30%; }
-	#header_featured ol.flex-control-nav {
-		bottom: -80px;
-		right: 50px;
-	}
-	
-	#services{ padding: 400px 0 80px; }
-		
-}
 @media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
 	
 	#main_header { height: 900px !important; }
