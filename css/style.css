@@ -1786,13 +1786,12 @@ textarea.input {
 
 @media (max-width: 480px) {
 	#services .sizers .team_person {
-		width: 100%;
+		width: 95px;
 		margin-right: 0;
 		margin-bottom: 15px;
 		max-width: 100%;
 	}
 	#services .sizers .team_person img {
-		max-width: 140px;
 		margin: 0 auto;
 	}
 }
