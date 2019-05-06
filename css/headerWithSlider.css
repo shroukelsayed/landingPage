@@ -1,11 +1,26 @@
 /*****************************************/
 /************ FEAUTERED SLIDER ***********/
 /*****************************************/
-
+#frame-holder {
+	opacity: 0;
+	position: relative;
+	z-index: -9;
+}
+#frame-holder img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 #main_header{ background-image: none; }
 #header_featured {
 	position:relative;
-	min-height:135px;
+	width: 100%;
+}
+#header_featured .slides {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
 	width: 100%;
 	height: 100%;
 }
@@ -15,8 +30,9 @@
 	padding: 40px 130px 10px;
 }
 .fr_slide_image{
-	background-attachment: fixed;
-	background-size: cover;
+	/*background-attachment: fixed;*/
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 .fr_image_description {
 	position: absolute;
@@ -65,7 +81,7 @@ video{
 			
 #left-arrow, #right-arrow {
 	position:absolute;
-	top: 50%;
+	top: 60%;
 	width:30px;
 	height:59px;
 	text-indent: -9999px;
@@ -77,7 +93,7 @@ video{
 }
 #right-arrow {
 	right: 100px;
-	top: 63%;
+	top: 73%;
 	background: url(images/next_arrow.png) no-repeat;
 }
 
@@ -107,9 +123,7 @@ video{
 	    height: 163px !important;
 	}
 
-	#header_featured {
-	    height: 370px;
-	}
+	
 	#left-arrow, #right-arrow {
 	    height: 29px;
 	}
@@ -123,9 +137,9 @@ video{
 	#services{ padding: 400px 0 80px; }
 		
 }
-@media only screen and ( max-width: 637px ) {
+@media only screen and ( max-width: 991px ) {
 
-	#main_header { height: 900px !important; }
+	/*#main_header { height: 900px !important; }
 	#main_header .flexslider .slides > li{
 		height: 900px !important;
 	}
@@ -136,11 +150,11 @@ video{
 		bottom: -60px;
 		right: 50px;
 	}
-	
+	*/
 	#services{ padding: 400px 0 80px; }
 
 }
-@media only screen and ( max-width: 480px ) {
+@media only screen and ( max-width: 991px ) {
 
 	.fr_image_description{ top: 20%; }
 	.fr_inner_description p{ font-size: 20px; }
@@ -148,30 +162,27 @@ video{
 	#header_featured ol.flex-control-nav{ right: 10px; }
 
 }
-@media only screen and ( max-width: 480px ) {
+@media only screen and ( max-width: 991px ) {
 	
 	#main_header { height: 640px !important; }
 	/*************************************************/
 	#main_header .flexslider .slides > li{
 		/*height: 640px !important;*/
-	    height: 170px !important;
-	    background-size: contain;
+	    /*height: 170px !important;*/
+	    background-size: 100% auto;
 	    background-repeat: no-repeat;
 	    background-position: top center !important;
 	}
 
 	.home #main_header {
-	    height: 163px !important;
+	    height: auto !important;
 	}
 
-	#header_featured {
-	    height: 170px;
-	}
 	#left-arrow, #right-arrow {
 	    height: 29px;
 	}
-	#left-arrow{ top: 10%; }
-	#right-arrow{ top: 30%; }
+	#left-arrow{ top: auto; bottom: 30%;}
+	#right-arrow{ top: auto; bottom: 10%; }
 	/****************************************************/
 	#header_featured ol.flex-control-nav{ bottom: 0; }
 	
@@ -181,4 +192,16 @@ video{
 	
 	#services{ padding: 150px 0 80px; }
 
+}
+
+#main_header .flexslider .slides > li {
+	height: 100% !important;
+}
+
+.home #main_header {
+	height: 100% !important;
+}
+
+ol.flex-control-nav {
+	z-index: 2;
 }

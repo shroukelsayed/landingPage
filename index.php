@@ -73,6 +73,7 @@
 				
 				<!--SLIDER-->
 				<div id="header_featured" class="flexslider clearfix">
+					<div id="frame-holder"><img src="images/slider/2.png" alt='img' /></div>
 					<ul class="slides">
 					
 					<!--IMAGE SLIDE-->
@@ -177,8 +178,9 @@
 						</article> <!-- end article -->
 				
 				<a href="https://www.youtube.com/user/MustafaHosnyOfficial/playlists?view=50&sort=dd&shelf_id=15"  target="_blank">
-					<div class="fixed_block quote" >
-					</div>
+					<img src="images/New_LP_03.png" alt="img" class="img-responsive w-100">
+					<!-- <div class="fixed_block quote" >
+					</div> -->
 				</a>
 						
 				
