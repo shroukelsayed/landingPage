@@ -63,7 +63,7 @@
 					<nav id="main-menu">
 						<ul id="menu-main_menu" class="nav">
 							<li><a href="#main_header">يعرض حاليا</a></li>
-							<li><a href="#newest_video">أجدد حلقات برنامج كنوز</a></li>
+							<li><a href="#newest_video">أجدد حلقات برنامج رحلة حياة</a></li>
 							<li><a href="#services">حسابات التواصل اﻻجتماعى</a></li>
 							<li><a href="#main_header">عن مصطفى حسنى </a></li>
 						</ul>	

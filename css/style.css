@@ -819,7 +819,7 @@ p.meta a:hover {
 	position: relative;
     overflow: hidden;
     padding-top: 56.25%;
-	max-width: 80%;
+	/*max-width: 80%;*/
 	margin: 0 auto;
 }
 .video_box iframe {
