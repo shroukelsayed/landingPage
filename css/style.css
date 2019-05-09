@@ -724,7 +724,7 @@ h6.fucts_name{
 
 .fr_cols{
      overflow:hidden;
-     _zoom:1;/*Для 6-го IE, задаем hasLayout, на эту тему есть много постов на хабре*/
+     _zoom:1;/*??? 6-?? IE, ?????? hasLayout, ?? ??? ???? ???? ????? ?????? ?? ?????*/
 }
 .fr_cols .fr_col1, .fr_cols .fr_col2{
      padding-bottom:10000px;
@@ -760,8 +760,8 @@ h1.main_title a:hover {
 }
 .entry h1{ margin: 10px 35px 10px 75px; }
 .entry{
-    margin-bottom: 80px;
-    padding-bottom: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     position: relative;
 }
 .entry:last-child{ margin: 0; }
@@ -1793,6 +1793,9 @@ textarea.input {
 	}
 	#services .sizers .team_person img {
 		margin: 0 auto;
+	}
+	.icon-bar {
+		display: none;
 	}
 }
 
