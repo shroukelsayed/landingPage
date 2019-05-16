@@ -242,7 +242,7 @@ img#about-image {
 	position: fixed !important;
 	z-index: 100;
 	background-color: rgba(255, 255, 255, 0.9);
-	height: 40px;
+	height: 45px;
 	margin: 0 !important;
 	float: none !important;
 	transition: all ease 0.5s;
@@ -373,8 +373,9 @@ ul#mobile_menu a {
 ul#mobile_menu {
 	width: 225px;
 	position: absolute;
-	top: 40px;
-	left: -43px;
+	top: 46px;
+	left: auto;
+	right: 0;
 	z-index: 1000;
 	display: none;
 }
@@ -1849,7 +1850,7 @@ textarea.input {
 	#menu {
 		margin: 0;
 		float: none;
-		text-align: center;
+		text-align: right;
 	}
 	#mobile_nav {
 		display: block;
@@ -1862,6 +1863,7 @@ textarea.input {
 		padding: 12px 18px;
 		position: relative;
 		border-width: 0 1px;
+		font-family: "brandon";
 	}
 	.small_header #mobile_nav { color: #fff; !important; }
 	.small_header #mobile_nav.opened{ color: #444; }

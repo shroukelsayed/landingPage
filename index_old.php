@@ -59,7 +59,7 @@
 				</div>
 				<!--MENU-->
 				<div id="menu" class="clearfix">
-					<a href="#" id="mobile_nav" class="closed">القائمة الرئيسية</a>
+					<a href="#" id="mobile_nav" class="closed">Menu</a>
 					<nav id="main-menu">
 						<ul id="menu-main_menu" class="nav">
 							<li><a href="#main_header">يعرض حاليا</a></li>
@@ -126,37 +126,37 @@
 						<div class="section_description">
 							<h3 class="section_name" id="new_font">حسابات التواصل اﻻجتماعى</h3>
 						</div>
-						
 						<div class="team_person">
-							<a href="https://www.facebook.com/MustafaHosny" target="_blank">
-								<img src="images/social_icons/facebook.png" alt="img">
+							<a href="https://soundcloud.com/mustafahosny" target="_blank">
+								<img src="images/social_icons/soundcloud.png" alt="img" />
 							</a>
-							<h6 class="team_name">صفحــة الفيسبوك</h6>
-						</div><div class="team_person">
+							<h6 class="team_name">حســاب ساوندكلود</h6>
+						</div>
+						<div class="team_person">
 							<a href="https://www.youtube.com/user/MustafaHosnyOfficial" target="_blank">
-								<img src="images/social_icons/youtube.png" alt="img">
+								<img src="images/social_icons/youtube.png" alt="img" />
 							</a>
 							<h6 class="team_name">قنــــــاة اليوتيوب</h6>
 						</div>
 						<div class="team_person">
 							<a href="https://www.instagram.com/mustafahosnyofficial/" target="_blank">
-								<img src="images/social_icons/instgram.png" alt="img">
+								<img src="images/social_icons/instgram.png" alt="img" />
 							</a>
 							<h6 class="team_name">حســاب انستجرام</h6>
 						</div>
 						<div class="team_person">
 							<a href="https://twitter.com/mustafahosny" target="_blank">
-								<img src="images/social_icons/twitter.png" alt="img">
+								<img src="images/social_icons/twitter.png" alt="img" />
 							</a>
 							<h6 class="team_name">حســــاب تويتــــر</h6>
 						</div>
 						<div class="team_person">
-							<a href="https://soundcloud.com/mustafahosny" target="_blank">
-								<img src="images/social_icons/soundcloud.png" alt="img">
+							<a href="https://www.facebook.com/MustafaHosny" target="_blank">
+								<img src="images/social_icons/facebook.png" alt="img" />
 							</a>
-							<h6 class="team_name">حســاب ساوندكلود</h6>
+							<h6 class="team_name">صفحــة الفيسبوك</h6>
 						</div>
-					</div>
+					</div> <!-- end of .sizers -->
 				</div>
 				
 				<!--SERVICES SECTION-->
