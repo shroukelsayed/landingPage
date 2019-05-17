@@ -62,8 +62,8 @@
 					<a href="#" id="mobile_nav" class="closed">القائمة الرئيسية</a>
 					<nav id="main-menu">
 						<ul id="menu-main_menu" class="nav">
-							<li><a href="#main_header">يعرض حاليا</a></li>
-							<li><a href="#newest_video">أجدد حلقات برنامج رحلة حياة</a></li>
+							<li><a href="#main_header">برامج مصطفى حسني</a></li>
+							<li><a href="#newest_video">أحدث حلقات البرنامج</a></li>
 							<li><a href="#services">حسابات التواصل اﻻجتماعى</a></li>
 							<!-- <li><a href="#main_header">عن مصطفى حسنى </a></li> -->
 						</ul>	
@@ -167,7 +167,7 @@
 					$playlistId = 'PLiJggHtOlnN2VRTPbKjXycqLwvp0cPyU7';
 					$maxResults = 50;
 					$video_list = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId='.$playlistId.'&maxResults='.$maxResults.'&key='.$API_key.''));
-					$video = end($video_list->items)->snippet->resourceId->videoId;
+					$video = $video_list->items[0]->snippet->resourceId->videoId;
 						?>
 						<article class="entry post clearfix ">
 							<div class="post-content clearfix" id="newest_video">
