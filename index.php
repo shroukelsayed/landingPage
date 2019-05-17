@@ -62,7 +62,7 @@
 					<a href="#" id="mobile_nav" class="closed">القائمة الرئيسية</a>
 					<nav id="main-menu">
 						<ul id="menu-main_menu" class="nav">
-							<li><a href="#main_header">برامج مصطفى حسني</a></li>
+							<li><a href="#videos">برامج مصطفى حسني</a></li>
 							<li><a href="#newest_video">أحدث حلقات البرنامج</a></li>
 							<li><a href="#services">حسابات التواصل اﻻجتماعى</a></li>
 							<!-- <li><a href="#main_header">عن مصطفى حسنى </a></li> -->
@@ -177,7 +177,7 @@
 								</div>
 						</article> <!-- end article -->
 				
-				<a href="https://www.youtube.com/user/MustafaHosnyOfficial/playlists?view=50&sort=dd&shelf_id=15"  target="_blank">
+				<a href="https://www.youtube.com/user/MustafaHosnyOfficial/playlists?view=50&sort=dd&shelf_id=15"  target="_blank" id="videos">
 					<img src="images/New_LP_03.png" alt="img" class="img-responsive w-100">
 					<!-- <div class="fixed_block quote" >
 					</div> -->
